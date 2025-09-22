@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Padin Coffee Roasters</title>
+  <meta name="description" content="Small-batch specialty coffee. Freshly roasted, lovingly brewed.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Padin Coffee Roasters home">
+        <span class="brand-mark">☕</span>
+        <span class="brand-name">Padin Coffee</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" role="banner">
+      <div class="container hero-inner">
+        <h1 class="hero-title">Small-batch specialty coffee</h1>
+        <p class="hero-subtitle">Roasted fresh, brewed with care. Start your day with flavor that lingers.</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary">Explore Menu</a>
+          <a href="#about" class="btn btn-ghost">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Menu</h2>
+          <p>From timeless classics to seasonal specials. Always crafted to perfection.</p>
+        </header>
+        <div class="menu-grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=1480&auto=format&fit=crop" alt="Cappuccino in a ceramic cup" loading="lazy">
+            <div class="card-body">
+              <h3>Cappuccino</h3>
+              <p>Velvety foam atop a bold double shot. Balanced and comforting.</p>
+              <div class="price">$4.50</div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1480&auto=format&fit=crop" alt="Latte art in a cup" loading="lazy">
+            <div class="card-body">
+              <h3>Vanilla Latte</h3>
+              <p>House-made vanilla syrup, creamy milk, and smooth espresso.</p>
+              <div class="price">$5.00</div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1473929733415-72f002d2ab17?q=80&w=1480&auto=format&fit=crop" alt="Pour-over coffee setup" loading="lazy">
+            <div class="card-body">
+              <h3>Pour-Over</h3>
+              <p>Single-origin, hand-brewed to highlight nuanced flavor notes.</p>
+              <div class="price">$4.75</div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?q=80&w=1480&auto=format&fit=crop" alt="Iced coffee with ice cubes" loading="lazy">
+            <div class="card-body">
+              <h3>Cold Brew</h3>
+              <p>Slow-steeped 16 hours for a smooth, naturally sweet finish.</p>
+              <div class="price">$4.95</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div class="two-col-media">
+          <img src="https://images.unsplash.com/photo-1503481766315-7a586b20f66d?q=80&w=1480&auto=format&fit=crop" alt="Roasted coffee beans in a roaster" loading="lazy">
+        </div>
+        <div class="two-col-content">
+          <h2>Our Story</h2>
+          <p>Founded by neighbors who bonded over early-morning brews, Padin Coffee Roasters began with a simple mission: source ethically, roast thoughtfully, and serve coffee that makes people smile.</p>
+          <p>We partner with small farms and cooperatives, paying fair, sustainable prices for exceptional beans. Every roast is profiled in-house to bring forward the origin's unique character.</p>
+          <ul class="feature-list">
+            <li>Seasonally rotating single-origin lineup</li>
+            <li>Direct-trade relationships with growers</li>
+            <li>House-made syrups and alternative milks</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="locations" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Locations</h2>
+          <p>Come by, say hi, and grab a cup.</p>
+        </header>
+        <div class="locations-grid">
+          <div class="location">
+            <h3>Downtown</h3>
+            <p>123 Bean Street, Suite 1<br>Mon–Fri 7a–6p · Sat–Sun 8a–5p</p>
+          </div>
+          <div class="location">
+            <h3>Riverside</h3>
+            <p>456 Roast Ave<br>Daily 7a–5p</p>
+          </div>
+          <div class="location">
+            <h3>West End</h3>
+            <p>789 Espresso Blvd<br>Mon–Fri 6:30a–5:30p</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Questions, catering, or wholesale? We’d love to hear from you.</p>
+        </header>
+        <form class="contact-form" action="#" method="post" onsubmit="return false" aria-label="Contact form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">☕</span>
+        <span class="brand-name">Padin Coffee</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="fineprint">© <span id="year"></span> Padin Coffee Roasters · All rights reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    // Only for updating the year text content; no other JS used
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html> 
